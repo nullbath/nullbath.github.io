@@ -1,2 +1,5 @@
-[[file:/home/coaxing/guyx121-242x179.png]]
-* Nullbath
+
+[[attachment:guyx121-242x179.png]] :ATTACH:
+:PROPERTIES:
+:ID:       acf2122e-9a23-4482-9306-9af998f584d5
+:END:
