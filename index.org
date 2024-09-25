@@ -21,7 +21,6 @@
 #+ATTR_HTML: :class thumbnail
 [[file:house.png][file:house.png]]
 
-
 #+ATTR_HTML: :class thumbnail
 [[file:house.png][file:house.png]]
 
@@ -30,7 +29,6 @@
 
 #+ATTR_HTML: :class thumbnail
 [[file:house.png][file:house.png]]
-
 
 #+BEGIN_EXPORT html
 </div>
