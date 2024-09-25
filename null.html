@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-09-25 Wed 00:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="nullbath" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="home/nullbath/projects/nullbath.github.io/null.css" />
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orge39ae8a">1. {</a></li>
+</ul>
+</div>
+</div>
+<p>
+/**
+</p>
+<ul class="org-ul">
+<li>This stylesheet will work pretty well with a regular Org Mode HTML export.</li>
+<li>However, you do have to turn off all of the defaults:</li>
+<li></li>
+
+<li>(setq org-export-html-style-include-scripts nil</li>
+<li>org-export-html-style-include-default nil)</li>
+<li></li>
+
+<li>and insert a call to the stylesheet:</li>
+<li></li>
+
+<li>(setq org-export-html-style</li>
+<li>&ldquo;&lt;link rel=\&rdquo;stylesheet\&ldquo; type=\&rdquo;text/css\&ldquo; href=\&rdquo;org-style.css\&ldquo; /&gt;&rdquo;)</li>
+</ul>
+<p>
+*/
+</p>
+
+<p>
+<i>* @group Fonts *</i>
+</p>
+<div id="outline-container-orge39ae8a" class="outline-2">
+<h2 id="orge39ae8a"><span class="section-number-2">1.</span> {</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+    font-family: &ldquo;Terminus&rdquo;;
+}
+</p>
+
+<p>
+h1, h2, h3, h4, h5, h6,
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-family: &ldquo;Arial&rdquo;;
+}
+</p>
+
+<p>
+pre {
+    font-family: Monaco, &ldquo;Courier New&rdquo;, Courier;
+}
+</p>
+
+<p>
+#text-table-of-contents a {
+    font-family: &ldquo;Arial&rdquo;;
+}
+</p>
+
+<p>
+<i>* @end *</i>
+</p>
+
+<p>
+<i>* @group Baseline *</i>
+body {
+  background-color: #000000;
+	font-size: 14px;
+	line-height: 1.5em;
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	margin: 0;
+	font-size: 1.6666666666666667em;
+	line-height: 0.9em;
+	margin-bottom: 0.9em;
+}
+h2 {
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+h3 {
+	margin: 0;
+	font-size: 1.3333333333333333em;
+	line-height: 1.125em;
+	margin-bottom: 1.125em;
+}
+h4 {
+	margin: 0;
+	font-size: 1.1666666666666667em;
+	line-height: 1.2857142857142858em;
+	margin-bottom: 1.2857142857142858em;
+}
+p, ul, blockquote, pre, td, th, label {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+p.small, #postamble {
+	margin: 0;
+	font-size: 0.8333333333333334em;
+	line-height: 1.8em;
+	margin-bottom: 1.8em;
+}
+table {
+	border-collapse: collapse;
+	margin-bottom: 1.5em;
+}
+<i>* @end *</i>
+</p>
+
+<p>
+<i>* @group Layout *</i>
+</p>
+
+<p>
+#content {
+	width: 70em;
+	margin-left: auto;
+	margin-right: auto;
+}
+</p>
+
+<p>
+<i>* #header {
+	height: 10em;
+}
+*</i>
+</p>
+
+<p>
+#table-of-contents {
+	width: 15em;
+	float: left;
+	overflow: auto;
+}
+</p>
+
+<p>
+<i>* #main { *</i>
+div.outline-2 {
+        width: 52em;
+	float: right;
+	<i>* The lines below are useful if the &ldquo;main&rdquo; div isn&rsquo;t available and
+	   div.outline-2 has to be used. *</i>
+	position: relative;
+}
+</p>
+
+<p>
+#postamble {
+	clear: both;
+	text-align: center;
+}
+</p>
+
+<p>
+div.outline-2 pre {
+    width: 40em;
+    overflow: auto;
+}
+</p>
+
+<p>
+<i>* @end *</i>
+</p>
+
+<p>
+<i>* @group Header *</i>
+</p>
+
+<p>
+h1.title {
+	margin-top: 10px;
+	text-align: center;
+}
+</p>
+
+<p>
+h1.title {
+	font-size: 4em;
+	font-weight: bold;
+	letter-spacing: -0.1em;
+	margin-bottom: 0.2em;
+}
+</p>
+
+<p>
+<i>* @end *</i>
+</p>
+
+<p>
+<i>* @group Org Keywords *</i>
+</p>
+
+<p>
+.todo {
+	color: red;
+}
+</p>
+
+<p>
+.done {
+	color: green;
+}
+</p>
+
+<p>
+.tag {
+	color: blue;
+	text-transform: lowercase;
+	<i>* This will be obscured by the surrounding span tag, so blank everything. *</i>
+	background: #fff;
+	border: none;
+	<i>* position: relative;
+	text-align: right;
+	right: 1em; *</i>
+}
+</p>
+
+<p>
+.timestamp {
+}
+</p>
+
+<p>
+.timestamp-kwd  {
+	<i>* keyword associated with a time stamp, like SCHEDULED *</i>
+}
+</p>
+
+<p>
+.target {
+	<i>* target for links *</i>
+}
+</p>
+
+<p>
+<i>* @end *</i>
+</p>
+
+<p>
+<i>* @group Table of Contents *</i>
+</p>
+
+<p>
+#table-of-contents h2 {
+	letter-spacing: -0.1em;
+}
+</p>
+
+<p>
+#table-of-contents ul,
+#table-of-contents ol {
+    padding-left: 1em;
+}
+</p>
+
+<p>
+<i>* @end *</i>
+</p>
+
+<p>
+<i>* @group Outline Level 2 *</i>
+</p>
+
+<p>
+.outline-2 h2 {
+    background: #ffc;
+    border-bottom: 1px solid #ccc;
+}
+</p>
+
+<p>
+.outline-2 h2, .outline-2 h3 {
+    letter-spacing: -0.05em;
+}
+</p>
+
+<p>
+.outline-2 {
+	padding: 5px;
+	<i>* margin-bottom: 10px; *</i>
+	<i>* border-top: 1px solid #ccc; *</i>
+}
+</p>
+
+<p>
+<i>* @end *</i>
+</p>
+
+<p>
+td {
+	border: 1px solid #ccc;
+}
+</p>
+
+
+<p>
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+    background-color: #eee;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+</p>
+
+<p>
+.outline-1, .outline-2, .outline-3, .outline-4, .outline-5, .outline-6 {
+    margin-left: 2em;
+}
+</p>
+
+<p>
+a {
+    text-decoration: none;
+    color: #57d; <i>* TODO: Find a better colour for this. *</i>
+}
+</p>
+
+<p>
+a:hover {
+    border-bottom: 1px dotted #57d;
+}
+</p>
+
+<p>
+#postamble p {
+    margin: 0px;
+}
+</p>
+
+<p>
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+</p>
+
+<p>
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+</p>
+
+<p>
+@media (max-width: 768px) {
+  .image-container {
+    flex-direction: column;
+  }
+}
+    .thumbnail img { width: 200px; height: auto; object-fit: cover; }
+    .thumbnail-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: nullbath</p>
+<p class="date">Created: 2024-09-25 Wed 00:02</p>
+</div>
+</body>
+</html>

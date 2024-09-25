@@ -1,14 +1,15 @@
-#+HTML_HEAD: <style>
-#+HTML_HEAD: .thumbnail img { width: 200px; height: auto; object-fit: cover; }
-#+HTML_HEAD: .thumbnail-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
-#+HTML_HEAD: </style>
 
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="null.css" />
+#+HTML_HEAD: <style type="text/css" href="null.css">
+#+HTML_HEAD: </style>
 
 #+BEGIN_EXPORT html
 <div style="text-align:center">
+<div class="banner">
 #+END_EXPORT
 
-[[file:nullbathlogo_light.svg][file:~/projects/nullbath.github.io/nullbathlogo_light.svg]]
+[[file:nullbathlogo_light.svg][file:nullbathlogo_dark.svg]]
 
 #+BEGIN_EXPORT html
 </div>
@@ -17,7 +18,6 @@
 #+BEGIN_EXPORT html
 <div class="thumbnail-grid">
 #+END_EXPORT
-
 #+ATTR_HTML: :class thumbnail
 [[file:house.png][file:house.png]]
 
