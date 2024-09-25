@@ -1,6 +1,3 @@
-
-
-
 #+HTML_HEAD: <style>
 #+HTML_HEAD: .thumbnail img { width: 200px; height: auto; object-fit: cover; }
 #+HTML_HEAD: .thumbnail-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
