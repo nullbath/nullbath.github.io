@@ -236,20 +236,28 @@ a:hover {
 }
 
 
+
 .thumbnail-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
   margin: auto;
+  gap: 10px;
 }
 
 .thumbnail {
   flex: 0 0 200px;
-  margin: 10px;
+  margin: 0px;
 }
 
-@media (max-width: 1000px) {
+.thumbnail img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
   .thumbnail-grid {
     flex-direction: column;
     justify-content: center;
@@ -262,14 +270,9 @@ a:hover {
   }
 
   .thumbnail img {
-    width: 200%;
+    width: 150%;
     height: auto;
-    object-fit: contain;
+    object-fit: fit;
+    transform: scale(1);
+    transform-origin: center;
   }
-}
-
-.thumbnail img {
-  width: 200px;
-  height: auto;
-  object-fit: cover;
-}

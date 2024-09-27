@@ -1,7 +1,7 @@
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="null.css" />
 #+HTML_HEAD: <style type="text/css" href="null.css">
-#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no">
+#+HTML_HEAD: <meta name="viewport" content="width=device-width, user-scalable=no">
 
 #+HTML_HEAD: </style>
 
@@ -18,7 +18,7 @@
 
 #+BEGIN_EXPORT html
 <div class="thumbnail-grid">
-<meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no">
+<meta name="viewport" content="width=device-width, user-scalable=no">
 #+END_EXPORT
 #+ATTR_HTML: :class thumbnail
 [[file:house.png][file:house.png]]
