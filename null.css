@@ -227,9 +227,6 @@ a {
     color: #57d; /* TODO: Find a better colour for this. */
 }
 
-a:hover {
-    border-bottom: 8px double #ffffff;
-}
 
 #postamble p {
     margin: 0px;
@@ -243,7 +240,7 @@ a:hover {
   justify-content: center;
   width: 100%;
   margin: auto;
-  gap: 10px;
+  gap: 0px 30px;
 }
 
 .thumbnail {
@@ -252,7 +249,7 @@ a:hover {
 }
 
 .thumbnail img {
-  width: 200px;
+  width: 400px;
   height: auto;
   object-fit: cover;
 }
