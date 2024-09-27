@@ -239,7 +239,6 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  margin: auto;
   gap: 0px 30px;
 }
 
@@ -254,7 +253,7 @@ a {
   object-fit: cover;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .thumbnail-grid {
     flex-direction: column;
     justify-content: center;
@@ -263,13 +262,12 @@ a {
 
   .thumbnail {
     flex-basis: 100%;
-    max-width: 100%;
+    max-width: 75%;
   }
 
   .thumbnail img {
-    width: 150%;
+    width: 125%;
     height: auto;
-    object-fit: fit;
+    object-fit: cover;
     transform: scale(1);
-    transform-origin: center;
   }
