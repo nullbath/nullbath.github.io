@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-09-25 Wed 00:02 -->
+<!-- 2024-09-27 Fri 10:33 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -17,7 +17,7 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orge39ae8a">1. {</a></li>
+<li><a href="#orgcb9521d">1. {</a></li>
 </ul>
 </div>
 </div>
@@ -46,8 +46,8 @@
 <p>
 <i>* @group Fonts *</i>
 </p>
-<div id="outline-container-orge39ae8a" class="outline-2">
-<h2 id="orge39ae8a"><span class="section-number-2">1.</span> {</h2>
+<div id="outline-container-orgcb9521d" class="outline-2">
+<h2 id="orgcb9521d"><span class="section-number-2">1.</span> {</h2>
 <div class="outline-text-2" id="text-1">
 <p>
     font-family: &ldquo;Terminus&rdquo;;
@@ -81,6 +81,9 @@ pre {
 <p>
 <i>* @group Baseline *</i>
 body {
+</p>
+
+<p>
   background-color: #000000;
 	font-size: 14px;
 	line-height: 1.5em;
@@ -340,7 +343,7 @@ a {
 
 <p>
 a:hover {
-    border-bottom: 1px dotted #57d;
+    border-bottom: 8px double #ffffff;
 }
 </p>
 
@@ -351,34 +354,36 @@ a:hover {
 </p>
 
 <p>
-.image-container {
-  display: flex;
-  flex-wrap: wrap;
+.thumbnail-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0px;
 }
 </p>
 
 <p>
-.image-container img {
-  max-width: 100%;
-  height: auto;
-}
-</p>
-
-<p>
-@media (max-width: 768px) {
-  .image-container {
-    flex-direction: column;
+@media (max-width: 900px) {
+  .thumbnail-grid {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
   }
+</p>
+
+
+
+
+<p>
 }
-    .thumbnail img { width: 200px; height: auto; object-fit: cover; }
-    .thumbnail-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+  .thumbnail img { width: 200px; height: auto; object-fit: fill; }
+  &lt;meta name=&ldquo;viewport&rdquo; content=&ldquo;width=device-width, initial-scale=2&rdquo;&gt;
 </p>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: nullbath</p>
-<p class="date">Created: 2024-09-25 Wed 00:02</p>
+<p class="date">Created: 2024-09-27 Fri 10:33</p>
 </div>
 </body>
 </html>

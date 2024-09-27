@@ -1,7 +1,7 @@
 
-
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="null.css" />
 #+HTML_HEAD: <style type="text/css" href="null.css">
+#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1">
 #+HTML_HEAD: </style>
 
 #+BEGIN_EXPORT html
